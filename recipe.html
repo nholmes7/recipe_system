@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe</title>
+    <style>
+        body { font-family: sans-serif; max-width: 800px; margin: auto; padding: 1em; }
+        h1 { font-size: 2em; text-align: center; margin-bottom: 0.2em; }
+        .recipe-meta { color: gray; text-align: center; margin-bottom: 1em; }
+        h2 { border-bottom: 1px solid #ccc; margin-top: 1.5em; }
+        ul { padding-left: 1.5em; }
+        li { margin-bottom: 0.5em; }
+    </style>
+</head>
+<body>
+    <div id="recipe"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+    <script>
+        async function loadRecipe() {
+            const params = new URLSearchParams(window.location.search);
+            const file = params.get('file');
+            if (!file) {
+                document.getElementById('recipe').textContent = 'No recipe file specified.';
+                return;
+            }
+
+            const url = `https://raw.githubusercontent.com/nholmes7/recipe_system/main/recipes/${file}`;
+            try {
+                const response = await fetch(url);
+                const text = await response.text();
+                const data = jsyaml.load(text);
+
+                const container = document.getElementById('recipe');
+                container.innerHTML = `
+                    <h1>${data.title || "Untitled Recipe"}</h1>
+                    <div class="recipe-meta">
+                        ${data.servings ? `Servings: ${data.servings} | ` : ''}
+                        ${data.prep_time ? `Prep Time: ${data.prep_time}` : ''}
+                    </div>
+                    <h2>Ingredients</h2>
+                    <ul>${data.ingredients?.map(i => `<li>${i}</li>`).join('') || ''}</ul>
+                    <h2>Instructions</h2>
+                    <ol>${data.instructions?.map(i => `<li>${i}</li>`).join('') || ''}</ol>
+                `;
+            } catch (err) {
+                document.getElementById('recipe').textContent = 'Failed to load recipe.';
+                console.error(err);
+            }
+        }
+
+        loadRecipe();
+    </script>
+</body>
+</html>
