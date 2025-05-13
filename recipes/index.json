@@ -1,0 +1,385 @@
+[
+    { "name": "30 Minute Garlic Butter Chicken Pad Thai", "filename": "30_minute_garlic_butter_chicken_pad_thai.yaml" }
+,
+    { "name": "Almond Cake With Peach Caramel", "filename": "almond_cake_with_peach_caramel.yaml" }
+,
+    { "name": "Apple Pear Baked Oatmeal", "filename": "apple_pear_baked_oatmeal.yaml" }
+,
+    { "name": "Apple Pie", "filename": "apple_pie.yaml" }
+,
+    { "name": "Asian Garlic Tofu", "filename": "asian_garlic_tofu.yaml" }
+,
+    { "name": "Asian Salad", "filename": "asian_salad.yaml" }
+,
+    { "name": "Autumn Flavours Bisque", "filename": "autumn_flavours_bisque.yaml" }
+,
+    { "name": "Avocado And Stone Fruit Salad", "filename": "avocado_and_stone_fruit_salad.yaml" }
+,
+    { "name": "Avocado Pasta", "filename": "avocado_pasta.yaml" }
+,
+    { "name": "Bacon Mac And Cheese Skillet", "filename": "bacon_mac_and_cheese_skillet.yaml" }
+,
+    { "name": "Baked Jalapeno Poppers", "filename": "baked_jalapeno_poppers.yaml" }
+,
+    { "name": "Banana Bread", "filename": "banana_bread.yaml" }
+,
+    { "name": "Banana Chocolate Chip Cookies", "filename": "banana_chocolate_chip_cookies.yaml" }
+,
+    { "name": "Banana Pancakes", "filename": "banana_pancakes.yaml" }
+,
+    { "name": "Bbq Chickpea Sliders", "filename": "bbq_chickpea_sliders.yaml" }
+,
+    { "name": "Beet And Crispy Chickpea Salad", "filename": "beet_and_crispy_chickpea_salad.yaml" }
+,
+    { "name": "Beetroot Burgers", "filename": "beetroot_burgers.yaml" }
+,
+    { "name": "Berry Blue Muffins", "filename": "berry_blue_muffins.yaml" }
+,
+    { "name": "Best Brownies", "filename": "best_brownies.yaml" }
+,
+    { "name": "Black Bean And Rice Patties With Fresh Tomato And Avocado Salsa", "filename": "black_bean_and_rice_patties_with_fresh_tomato_and_avocado_salsa.yaml" }
+,
+    { "name": "Black Bean Burgers", "filename": "black_bean_burgers.yaml" }
+,
+    { "name": "Black Bean Taquitos With Enchilada Sauce", "filename": "black_bean_taquitos_with_enchilada_sauce.yaml" }
+,
+    { "name": "Blueberry Oat Breakfast Muffins", "filename": "blueberry_oat_breakfast_muffins.yaml" }
+,
+    { "name": "Blueberry Pie", "filename": "blueberry_pie.yaml" }
+,
+    { "name": "Blueberry Swirl Coffee Cake", "filename": "blueberry_swirl_coffee_cake.yaml" }
+,
+    { "name": "Buddha Bowl", "filename": "buddha_bowl.yaml" }
+,
+    { "name": "Buddha Bowl Dressing", "filename": "buddha_bowl_dressing.yaml" }
+,
+    { "name": "Butternut Squash Chili", "filename": "butternut_squash_chili.yaml" }
+,
+    { "name": "Caesar Salad", "filename": "caesar_salad.yaml" }
+,
+    { "name": "Carribean Quinoa Bowls", "filename": "carribean_quinoa_bowls.yaml" }
+,
+    { "name": "Cashewginger Soba Noodle Bowl", "filename": "cashewginger_soba_noodle_bowl.yaml" }
+,
+    { "name": "Cast Iron Tofu", "filename": "cast_iron_tofu.yaml" }
+,
+    { "name": "Cauliflower Alfredo With Grilled Asparagus", "filename": "cauliflower_alfredo_with_grilled_asparagus.yaml" }
+,
+    { "name": "Cauliflower And Potato Curry", "filename": "cauliflower_and_potato_curry.yaml" }
+,
+    { "name": "Cauliflower Bolognese", "filename": "cauliflower_bolognese.yaml" }
+,
+    { "name": "Cauliflower Mushroom And Squash Risotto", "filename": "cauliflower_mushroom_and_squash_risotto.yaml" }
+,
+    { "name": "Chana Masala", "filename": "chana_masala.yaml" }
+,
+    { "name": "Chickpea Noodle Soup", "filename": "chickpea_noodle_soup.yaml" }
+,
+    { "name": "Chickpea Salad Wraps", "filename": "chickpea_salad_wraps.yaml" }
+,
+    { "name": "Chickpea Spinach Stew With Lentils And Quinoa", "filename": "chickpea_spinach_stew_with_lentils_and_quinoa.yaml" }
+,
+    { "name": "Chickpea Sundried Tomato And Arugula Crostini", "filename": "chickpea_sundried_tomato_and_arugula_crostini.yaml" }
+,
+    { "name": "Chili", "filename": "chili.yaml" }
+,
+    { "name": "Chocolate Brownie Cookies", "filename": "chocolate_brownie_cookies.yaml" }
+,
+    { "name": "Chocolate Chip Cookies", "filename": "chocolate_chip_cookies.yaml" }
+,
+    { "name": "Chocolate Zucchini Muffins", "filename": "chocolate_zucchini_muffins.yaml" }
+,
+    { "name": "Coffee Cake Protein Muffins", "filename": "coffee_cake_protein_muffins.yaml" }
+,
+    { "name": "Coleslaw", "filename": "coleslaw.yaml" }
+,
+    { "name": "Creamy Mushroom Pasta", "filename": "creamy_mushroom_pasta.yaml" }
+,
+    { "name": "Creamy Squash Mac And Cheese", "filename": "creamy_squash_mac_and_cheese.yaml" }
+,
+    { "name": "Crispy Cauliflower Tinga Tacos With Honey Lime Avocado Crema", "filename": "crispy_cauliflower_tinga_tacos_with_honey_lime_avocado_crema.yaml" }
+,
+    { "name": "Crispy Chicken Tinga Taquitos", "filename": "crispy_chicken_tinga_taquitos.yaml" }
+,
+    { "name": "Crispy Roasted Cauliflower With Creamy Pesto Pasta", "filename": "crispy_roasted_cauliflower_with_creamy_pesto_pasta.yaml" }
+,
+    { "name": "Cucumber And Mint Potato Salad", "filename": "cucumber_and_mint_potato_salad.yaml" }
+,
+    { "name": "Cucumber Tomato And Chickpea Lemon Salad", "filename": "cucumber_tomato_and_chickpea_lemon_salad.yaml" }
+,
+    { "name": "Curried Carrot Coconut Soup", "filename": "curried_carrot_coconut_soup.yaml" }
+,
+    { "name": "Curried Chickpea Salad", "filename": "curried_chickpea_salad.yaml" }
+,
+    { "name": "Curried Lentils", "filename": "curried_lentils.yaml" }
+,
+    { "name": "Dinner Rolls", "filename": "dinner_rolls.yaml" }
+,
+    { "name": "Drop Biscuits", "filename": "drop_biscuits.yaml" }
+,
+    { "name": "Easy Chickpea Tofu And Spinach Curry", "filename": "easy_chickpea_tofu_and_spinach_curry.yaml" }
+,
+    { "name": "Easy Parmesan Risotto", "filename": "easy_parmesan_risotto.yaml" }
+,
+    { "name": "Egg Falafel Wraps", "filename": "egg_falafel_wraps.yaml" }
+,
+    { "name": "Eggplant Parmesan", "filename": "eggplant_parmesan.yaml" }
+,
+    { "name": "Every Day Glow Salad", "filename": "every_day_glow_salad.yaml" }
+,
+    { "name": "Fajita Fiesta Bowls", "filename": "fajita_fiesta_bowls.yaml" }
+,
+    { "name": "Falafel", "filename": "falafel.yaml" }
+,
+    { "name": "Falafel Wrap", "filename": "falafel_wrap.yaml" }
+,
+    { "name": "Fall Veggie Stew", "filename": "fall_veggie_stew.yaml" }
+,
+    { "name": "Fattoush Salad", "filename": "fattoush_salad.yaml" }
+,
+    { "name": "Firecracker Lettuce Wraps", "filename": "firecracker_lettuce_wraps.yaml" }
+,
+    { "name": "Firecracker Salad", "filename": "firecracker_salad.yaml" }
+,
+    { "name": "Firecracker Salad Dressing", "filename": "firecracker_salad_dressing.yaml" }
+,
+    { "name": "Garlic And Herb White Bean Dip", "filename": "garlic_and_herb_white_bean_dip.yaml" }
+,
+    { "name": "Garlic Knots", "filename": "garlic_knots.yaml" }
+,
+    { "name": "Garlic Sauce", "filename": "garlic_sauce.yaml" }
+,
+    { "name": "General Tsos Tofu Stirfry", "filename": "general_tsos_tofu_stirfry.yaml" }
+,
+    { "name": "Giant Banana Cinnamon Roll Dough", "filename": "giant_banana_cinnamon_roll__dough.yaml" }
+,
+    { "name": "Giant Banana Cinnamon Roll Filling", "filename": "giant_banana_cinnamon_roll__filling.yaml" }
+,
+    { "name": "Giant Banana Cinnamon Roll Frosting", "filename": "giant_banana_cinnamon_roll__frosting.yaml" }
+,
+    { "name": "Ginger Maple Baked Aduki Beans", "filename": "ginger_maple_baked_aduki_beans.yaml" }
+,
+    { "name": "Greek Night", "filename": "greek_night.yaml" }
+,
+    { "name": "Grilled Halloumi And Peach Salad", "filename": "grilled_halloumi_and_peach_salad.yaml" }
+,
+    { "name": "Grilled Mango With Raspberry Coulis", "filename": "grilled_mango_with_raspberry_coulis.yaml" }
+,
+    { "name": "Hasselback Butternut Squash With Feta", "filename": "hasselback_butternut_squash_with_feta.yaml" }
+,
+    { "name": "Hoisinglazed Tofu And Green Beans", "filename": "hoisinglazed_tofu_and_green_beans.yaml" }
+,
+    { "name": "Homemade Burrito", "filename": "homemade_burrito.yaml" }
+,
+    { "name": "Honey-garlic Chicken Wraps", "filename": "honey-garlic_chicken_wraps.yaml" }
+,
+    { "name": "Honey Almond Carrots", "filename": "honey_almond_carrots.yaml" }
+,
+    { "name": "Honey Garlic Shrimp", "filename": "honey_garlic_shrimp.yaml" }
+,
+    { "name": "Hot Fudge Pudding", "filename": "hot_fudge_pudding.yaml" }
+,
+    { "name": "Indian Coconut Butter Cauliflower", "filename": "indian_coconut_butter_cauliflower.yaml" }
+,
+    { "name": "Jerusalem Artichoke Soup", "filename": "jerusalem_artichoke_soup.yaml" }
+,
+    { "name": "Kale Caesar Salad With Sweet Potatoes And Crispy Chickpeas", "filename": "kale_caesar_salad_with_sweet_potatoes_and_crispy_chickpeas.yaml" }
+,
+    { "name": "Kale Salad With Tandoori Roasted Chickpeas", "filename": "kale_salad_with_tandoori_roasted_chickpeas.yaml" }
+,
+    { "name": "Kettle Corn", "filename": "kettle_corn.yaml" }
+,
+    { "name": "Lemon Macadamia Mini Muffins", "filename": "lemon_macadamia_mini_muffins.yaml" }
+,
+    { "name": "Lemon Salmon And Potatoes With Parmesan Asparagus", "filename": "lemon_salmon_and_potatoes_with_parmesan_asparagus.yaml" }
+,
+    { "name": "Lemontahini Dressing", "filename": "lemontahini_dressing.yaml" }
+,
+    { "name": "Lentil Stew With Mashed Potatoes", "filename": "lentil_stew_with_mashed_potatoes.yaml" }
+,
+    { "name": "Lentilmushroom Bolognese", "filename": "lentilmushroom_bolognese.yaml" }
+,
+    { "name": "Lettuce Mango Salad", "filename": "lettuce_mango_salad.yaml" }
+,
+    { "name": "Lettuce Mango Salad Candied Pecans", "filename": "lettuce_mango_salad_candied_pecans.yaml" }
+,
+    { "name": "Lettuce Mango Salad Dressing", "filename": "lettuce_mango_salad_dressing.yaml" }
+,
+    { "name": "Loaded Thaistyle Lettuce Cups", "filename": "loaded_thaistyle_lettuce_cups.yaml" }
+,
+    { "name": "Mango Lime Overnight Oats", "filename": "mango_lime_overnight_oats.yaml" }
+,
+    { "name": "Maple Dijon Burgers", "filename": "maple_dijon_burgers.yaml" }
+,
+    { "name": "Maple Glazed Salmon", "filename": "maple_glazed_salmon.yaml" }
+,
+    { "name": "Mediterranean Baked Sweet Potatoes", "filename": "mediterranean_baked_sweet_potatoes.yaml" }
+,
+    { "name": "Mexican Quinoa Bowls", "filename": "mexican_quinoa_bowls.yaml" }
+,
+    { "name": "Minestrone Soup", "filename": "minestrone_soup.yaml" }
+,
+    { "name": "Minty Beet And Sweet Potato Soup", "filename": "minty_beet_and_sweet_potato_soup.yaml" }
+,
+    { "name": "Moroccan Dish", "filename": "moroccan_dish.yaml" }
+,
+    { "name": "Mug Brownies", "filename": "mug_brownies.yaml" }
+,
+    { "name": "Mushroom Bacon", "filename": "mushroom_bacon.yaml" }
+,
+    { "name": "Mushroom Fajitas", "filename": "mushroom_fajitas.yaml" }
+,
+    { "name": "Nachos Beans", "filename": "nachos__beans.yaml" }
+,
+    { "name": "Nachos Cheese", "filename": "nachos__cheese.yaml" }
+,
+    { "name": "Nachos Guacamole", "filename": "nachos__guacamole.yaml" }
+,
+    { "name": "Nachos Quinoa", "filename": "nachos__quinoa.yaml" }
+,
+    { "name": "Nachos Toppings", "filename": "nachos__toppings.yaml" }
+,
+    { "name": "Nectarine Quinoa Porridge", "filename": "nectarine_quinoa_porridge.yaml" }
+,
+    { "name": "Nobake Chocolate Cookies", "filename": "nobake_chocolate_cookies.yaml" }
+,
+    { "name": "One Pan Pasta", "filename": "one_pan_pasta.yaml" }
+,
+    { "name": "One Pot Sausage Pasta", "filename": "one_pot_sausage_pasta.yaml" }
+,
+    { "name": "One Potato Two Tomato Soup", "filename": "one_potato_two_tomato_soup.yaml" }
+,
+    { "name": "Onepot Chickpea Biryani", "filename": "onepot_chickpea_biryani.yaml" }
+,
+    { "name": "Orange Tofu And Veggie Fried Rice", "filename": "orange_tofu_and_veggie_fried_rice.yaml" }
+,
+    { "name": "Pancakes", "filename": "pancakes.yaml" }
+,
+    { "name": "Peach Pie", "filename": "peach_pie.yaml" }
+,
+    { "name": "Peach Pie Parfait", "filename": "peach_pie_parfait.yaml" }
+,
+    { "name": "Pesto Pasta", "filename": "pesto_pasta.yaml" }
+,
+    { "name": "Pie Crust", "filename": "pie_crust.yaml" }
+,
+    { "name": "Pineapple Fried Rice", "filename": "pineapple_fried_rice.yaml" }
+,
+    { "name": "Pineapple Red Onion Salad", "filename": "pineapple_red_onion_salad.yaml" }
+,
+    { "name": "Pineapple Slaw", "filename": "pineapple_slaw.yaml" }
+,
+    { "name": "Pizza Dough", "filename": "pizza_dough.yaml" }
+,
+    { "name": "Pomegranate Molasses Vinaigrette", "filename": "pomegranate_molasses_vinaigrette.yaml" }
+,
+    { "name": "Potato And Cauliflower Bisque", "filename": "potato_and_cauliflower_bisque.yaml" }
+,
+    { "name": "Potato Leek Soup", "filename": "potato_leek_soup.yaml" }
+,
+    { "name": "Potato Skin Samosas", "filename": "potato_skin_samosas.yaml" }
+,
+    { "name": "Pumpkin Gnocchi", "filename": "pumpkin_gnocchi.yaml" }
+,
+    { "name": "Pumpkin Muffins", "filename": "pumpkin_muffins.yaml" }
+,
+    { "name": "Pumpkin Pie", "filename": "pumpkin_pie.yaml" }
+,
+    { "name": "Pumpkin Spice Coffee Creamer", "filename": "pumpkin_spice_coffee_creamer.yaml" }
+,
+    { "name": "Pumpkin Spice Loaf", "filename": "pumpkin_spice_loaf.yaml" }
+,
+    { "name": "Quesoless Quesadilla With Apple Chutney", "filename": "quesoless_quesadilla_with_apple_chutney.yaml" }
+,
+    { "name": "Quinoa And Turmeric Fritters", "filename": "quinoa_and_turmeric_fritters.yaml" }
+,
+    { "name": "Quinoa And Wild Rice Stuffed Peppers", "filename": "quinoa_and_wild_rice_stuffed_peppers.yaml" }
+,
+    { "name": "Quinoa Taco Mix", "filename": "quinoa_taco_mix.yaml" }
+,
+    { "name": "Red Cabbage And Carrot Salad", "filename": "red_cabbage_and_carrot_salad.yaml" }
+,
+    { "name": "Rhubarb Fool", "filename": "rhubarb_fool.yaml" }
+,
+    { "name": "Rhubarb Squares", "filename": "rhubarb_squares.yaml" }
+,
+    { "name": "Rhubarb Streusel Muffins", "filename": "rhubarb_streusel_muffins.yaml" }
+,
+    { "name": "Roasted Cauliflower Tacos", "filename": "roasted_cauliflower_tacos.yaml" }
+,
+    { "name": "Seriously Good Quinoa Salad", "filename": "seriously_good_quinoa_salad.yaml" }
+,
+    { "name": "Sheet Pan Squash Tacos", "filename": "sheet_pan_squash_tacos.yaml" }
+,
+    { "name": "Sheet Pan Sticky Sweet And Sour Tofu", "filename": "sheet_pan_sticky_sweet_and_sour_tofu.yaml" }
+,
+    { "name": "Shepherds Pie", "filename": "shepherds_pie.yaml" }
+,
+    { "name": "Snickerdoodles", "filename": "snickerdoodles.yaml" }
+,
+    { "name": "Southwestern Sweet Potato Soup", "filename": "southwestern_sweet_potato_soup.yaml" }
+,
+    { "name": "Spicy Lightly Pickled Cucumbers", "filename": "spicy_lightly_pickled_cucumbers.yaml" }
+,
+    { "name": "Spicy Tempeh Bulgogi", "filename": "spicy_tempeh_bulgogi.yaml" }
+,
+    { "name": "Spicy Thai Salad", "filename": "spicy_thai_salad.yaml" }
+,
+    { "name": "Spicy Vegan Chorizo Tacos", "filename": "spicy_vegan_chorizo_tacos.yaml" }
+,
+    { "name": "Spring Greens And Lemon Salad", "filename": "spring_greens_and_lemon_salad.yaml" }
+,
+    { "name": "Squash And Sweet Potato Futari", "filename": "squash_and_sweet_potato_futari.yaml" }
+,
+    { "name": "Squash Soup", "filename": "squash_soup.yaml" }
+,
+    { "name": "Stracciatella Soup", "filename": "stracciatella_soup.yaml" }
+,
+    { "name": "Strawberry Rhubarb Coffee Cake", "filename": "strawberry_rhubarb_coffee_cake.yaml" }
+,
+    { "name": "Strawberry Shortcakes", "filename": "strawberry_shortcakes.yaml" }
+,
+    { "name": "Summer Avo Tacos", "filename": "summer_avo_tacos.yaml" }
+,
+    { "name": "Sundried Tomato Aioli", "filename": "sundried_tomato_aioli.yaml" }
+,
+    { "name": "Sundried Tomato Carbonara", "filename": "sundried_tomato_carbonara.yaml" }
+,
+    { "name": "Sunshine Muffins", "filename": "sunshine_muffins.yaml" }
+,
+    { "name": "Super Easy Super Green Spaghetti", "filename": "super_easy_super_green_spaghetti.yaml" }
+,
+    { "name": "Swedish Teacakes", "filename": "swedish_teacakes.yaml" }
+,
+    { "name": "Sweet And Sour Mixed Bean Hotpot", "filename": "sweet_and_sour_mixed_bean_hotpot.yaml" }
+,
+    { "name": "Sweet Potato Marshmallow Casserole", "filename": "sweet_potato_marshmallow_casserole.yaml" }
+,
+    { "name": "Sweet Potato Noodles With Creamy Peanut Satay Sauce", "filename": "sweet_potato_noodles_with_creamy_peanut_satay_sauce.yaml" }
+,
+    { "name": "Taco Salad Bowls", "filename": "taco_salad_bowls.yaml" }
+,
+    { "name": "Tiny Tomato Sauce Crostini", "filename": "tiny_tomato_sauce_crostini.yaml" }
+,
+    { "name": "Tofu Bacon Crumbles", "filename": "tofu_bacon_crumbles.yaml" }
+,
+    { "name": "Tofu Mushroom Miso Soup", "filename": "tofu_mushroom__miso_soup.yaml" }
+,
+    { "name": "Vegan Broccoli Salad", "filename": "vegan_broccoli_salad.yaml" }
+,
+    { "name": "Vegan Parmesan Cheese", "filename": "vegan_parmesan_cheese.yaml" }
+,
+    { "name": "Vegetable Potjie", "filename": "vegetable_potjie.yaml" }
+,
+    { "name": "Veggie Burgers", "filename": "veggie_burgers.yaml" }
+,
+    { "name": "Veggie Spring Rolls With Almond Sauce", "filename": "veggie_spring_rolls_with_almond_sauce.yaml" }
+,
+    { "name": "Vietnamese Noodle Bowl", "filename": "vietnamese_noodle_bowl.yaml" }
+,
+    { "name": "Yellow Splitpea Soup", "filename": "yellow_splitpea_soup.yaml" }
+,
+    { "name": "Zucchini Caramelized Onion Egg Muffins", "filename": "zucchini__caramelized_onion_egg_muffins.yaml" }
+,
+    { "name": "Zucchini Bread", "filename": "zucchini_bread.yaml" }
+]

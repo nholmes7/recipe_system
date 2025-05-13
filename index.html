@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Viewer</title>
+    <script>
+        async function loadRecipes() {
+            const response = await fetch('https://raw.githubusercontent.com/nholmes7/recipe_system/main/recipes/index.json');
+            const recipes = await response.json();
+            const recipeList = document.getElementById('recipe-list');
+            recipeList.innerHTML = '';
+            
+            recipes.forEach(recipe => {
+                let li = document.createElement('li');
+                li.textContent = recipe.name;
+                li.onclick = () => loadRecipe(recipe.filename);
+                recipeList.appendChild(li);
+            });
+        }
+        
+        async function loadRecipe(filename) {
+            const response = await fetch(`https://raw.githubusercontent.com/nholmes7/recipe_system/main/recipes/${filename}`);
+            const text = await response.text();
+            document.getElementById('recipe-display').innerText = text;
+        }
+        
+        window.onload = loadRecipes;
+    </script>
+</head>
+<body>
+    <h1>Recipe Viewer</h1>
+    <ul id="recipe-list"></ul>
+    <pre id="recipe-display"></pre>
+</body>
+</html>
