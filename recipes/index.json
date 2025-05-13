@@ -97,6 +97,8 @@
 ,
     { "name": "Creamy Squash Mac And Cheese", "filename": "creamy_squash_mac_and_cheese.yaml" }
 ,
+    { "name": "Crispy Baked Sesame Tofu", "filename": "crispy_baked_sesame_tofu.yaml" }
+,
     { "name": "Crispy Cauliflower Tinga Tacos With Honey Lime Avocado Crema", "filename": "crispy_cauliflower_tinga_tacos_with_honey_lime_avocado_crema.yaml" }
 ,
     { "name": "Crispy Chicken Tinga Taquitos", "filename": "crispy_chicken_tinga_taquitos.yaml" }
