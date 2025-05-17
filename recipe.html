@@ -6,23 +6,35 @@
     <title>Recipe</title>
     <style>
         body { font-family: sans-serif; max-width: 800px; margin: auto; padding: 1em; }
-        h1 { font-size: 2em; text-align: center; margin-bottom: 0.2em; }
-        .recipe-meta { color: gray; text-align: center; margin-bottom: 1em; }
+        h1 { text-align: center; }
+        .recipe-meta { color: gray; margin-bottom: 1em; text-align: center; }
         h2 { border-bottom: 1px solid #ccc; margin-top: 1.5em; }
         ul { padding-left: 1.5em; }
         li { margin-bottom: 0.5em; }
+        .group-title { font-weight: bold; margin-top: 1em; }
     </style>
 </head>
 <body>
-    <div id="recipe"></div>
+    <h1 id="title">Loading...</h1>
+    <div class="recipe-meta" id="meta"></div>
+
+    <h2>Ingredients</h2>
+    <div id="ingredients"></div>
+
+    <h2>Instructions</h2>
+    <ol id="instructions"></ol>
 
     <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
     <script>
+        function getQueryParam(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+
         async function loadRecipe() {
-            const params = new URLSearchParams(window.location.search);
-            const file = params.get('file');
+            const file = getQueryParam('file');
             if (!file) {
-                document.getElementById('recipe').textContent = 'No recipe file specified.';
+                document.getElementById('title').textContent = 'Recipe not found';
                 return;
             }
 
@@ -32,25 +44,52 @@
                 const text = await response.text();
                 const data = jsyaml.load(text);
 
-                const container = document.getElementById('recipe');
-                container.innerHTML = `
-                    <h1>${data.title || "Untitled Recipe"}</h1>
-                    <div class="recipe-meta">
-                        ${data.servings ? `Servings: ${data.servings} | ` : ''}
-                        ${data.prep_time ? `Prep Time: ${data.prep_time}` : ''}
-                    </div>
-                    <h2>Ingredients</h2>
-                    <ul>${data.ingredients?.map(i => `<li>${i}</li>`).join('') || ''}</ul>
-                    <h2>Instructions</h2>
-                    <ol>${data.instructions?.map(i => `<li>${i}</li>`).join('') || ''}</ol>
-                `;
+                document.getElementById('title').textContent = data.title || 'Untitled';
+                const meta = [data.category, data.servings && `${data.servings} servings`, data['prep time'], data['cook time']]
+                    .filter(Boolean).join(' • ');
+                document.getElementById('meta').textContent = meta;
+
+                const ingredientsEl = document.getElementById('ingredients');
+                ingredientsEl.innerHTML = '';
+                if (Array.isArray(data.ingredients)) {
+                    const ul = document.createElement('ul');
+                    data.ingredients.forEach(item => {
+                        const li = document.createElement('li');
+                        li.textContent = item;
+                        ul.appendChild(li);
+                    });
+                    ingredientsEl.appendChild(ul);
+                } else if (typeof data.ingredients === 'object') {
+                    for (const group in data.ingredients) {
+                        const groupTitle = document.createElement('div');
+                        groupTitle.textContent = group;
+                        groupTitle.className = 'group-title';
+                        ingredientsEl.appendChild(groupTitle);
+
+                        const ul = document.createElement('ul');
+                        data.ingredients[group].forEach(item => {
+                            const li = document.createElement('li');
+                            li.textContent = item;
+                            ul.appendChild(li);
+                        });
+                        ingredientsEl.appendChild(ul);
+                    }
+                }
+
+                const instructionsEl = document.getElementById('instructions');
+                instructionsEl.innerHTML = '';
+                data.instructions.forEach(step => {
+                    const li = document.createElement('li');
+                    li.textContent = step;
+                    instructionsEl.appendChild(li);
+                });
             } catch (err) {
-                document.getElementById('recipe').textContent = 'Failed to load recipe.';
+                document.getElementById('title').textContent = 'Failed to load recipe';
                 console.error(err);
             }
         }
 
-        loadRecipe();
+        window.onload = loadRecipe;
     </script>
 </body>
 </html>
