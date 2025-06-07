@@ -73,6 +73,8 @@
 ,
     { "name": "Chana Masala", "filename": "chana_masala.yaml" }
 ,
+    { "name": "Chicken Pot Pie With Biscuits", "filename": "chicken_pot_pie_with_biscuits.yaml" }
+,
     { "name": "Chickpea Noodle Soup", "filename": "chickpea_noodle_soup.yaml" }
 ,
     { "name": "Chickpea Salad Wraps", "filename": "chickpea_salad_wraps.yaml" }
@@ -280,6 +282,8 @@
     { "name": "Potato Leek Soup", "filename": "potato_leek_soup.yaml" }
 ,
     { "name": "Potato Skin Samosas", "filename": "potato_skin_samosas.yaml" }
+,
+    { "name": "Pulled Pork", "filename": "pulled_pork.yaml" }
 ,
     { "name": "Pumpkin Gnocchi", "filename": "pumpkin_gnocchi.yaml" }
 ,
