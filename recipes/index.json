@@ -183,6 +183,8 @@
 ,
     { "name": "Hot Fudge Pudding", "filename": "hot_fudge_pudding.yaml" }
 ,
+    { "name": "Hot Honey Crispy Salmon Bowls", "filename": "hot_honey_crispy_salmon_bowls.yaml" }
+,
     { "name": "Indian Coconut Butter Cauliflower", "filename": "indian_coconut_butter_cauliflower.yaml" }
 ,
     { "name": "Jerusalem Artichoke Soup", "filename": "jerusalem_artichoke_soup.yaml" }
@@ -256,6 +258,8 @@
     { "name": "Onepot Chickpea Biryani", "filename": "onepot_chickpea_biryani.yaml" }
 ,
     { "name": "Orange Tofu And Veggie Fried Rice", "filename": "orange_tofu_and_veggie_fried_rice.yaml" }
+,
+    { "name": "Our Favourite Chocolate Chip Cookies", "filename": "our_favourite_chocolate_chip_cookies.yaml" }
 ,
     { "name": "Pancakes", "filename": "pancakes.yaml" }
 ,
@@ -331,6 +335,8 @@
 ,
     { "name": "Spicy Lightly Pickled Cucumbers", "filename": "spicy_lightly_pickled_cucumbers.yaml" }
 ,
+    { "name": "Spicy Salmon Bowls", "filename": "spicy_salmon_bowls.yaml" }
+,
     { "name": "Spicy Tempeh Bulgogi", "filename": "spicy_tempeh_bulgogi.yaml" }
 ,
     { "name": "Spicy Thai Salad", "filename": "spicy_thai_salad.yaml" }
@@ -386,6 +392,8 @@
     { "name": "Veggie Spring Rolls With Almond Sauce", "filename": "veggie_spring_rolls_with_almond_sauce.yaml" }
 ,
     { "name": "Vietnamese Noodle Bowl", "filename": "vietnamese_noodle_bowl.yaml" }
+,
+    { "name": "Waffles", "filename": "waffles.yaml" }
 ,
     { "name": "Yellow Splitpea Soup", "filename": "yellow_splitpea_soup.yaml" }
 ,
