@@ -49,6 +49,8 @@
 ,
     { "name": "Blueberry Swirl Coffee Cake", "filename": "blueberry_swirl_coffee_cake.yaml" }
 ,
+    { "name": "Breakfast Wraps", "filename": "breakfast_wraps.yaml" }
+,
     { "name": "Buddha Bowl Dressing", "filename": "buddha_bowl_dressing.yaml" }
 ,
     { "name": "Buddha Bowl", "filename": "buddha_bowl.yaml" }
