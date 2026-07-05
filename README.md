@@ -2,6 +2,8 @@
 
 A personal recipe collection stored as YAML files, served as a simple static site via GitHub Pages.
 
+**Live site:** https://nholmes7.github.io/recipe_system/
+
 ## How it works
 
 - **`recipes/*.yaml`** — one file per recipe, in a consistent format (see below).
