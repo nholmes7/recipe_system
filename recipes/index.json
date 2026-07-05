@@ -49,9 +49,9 @@
 ,
     { "name": "Blueberry Swirl Coffee Cake", "filename": "blueberry_swirl_coffee_cake.yaml" }
 ,
-    { "name": "Buddha Bowl", "filename": "buddha_bowl.yaml" }
-,
     { "name": "Buddha Bowl Dressing", "filename": "buddha_bowl_dressing.yaml" }
+,
+    { "name": "Buddha Bowl", "filename": "buddha_bowl.yaml" }
 ,
     { "name": "Butternut Squash Chili", "filename": "butternut_squash_chili.yaml" }
 ,
@@ -133,9 +133,9 @@
 ,
     { "name": "Fajita Fiesta Bowls", "filename": "fajita_fiesta_bowls.yaml" }
 ,
-    { "name": "Falafel", "filename": "falafel.yaml" }
-,
     { "name": "Falafel Wrap", "filename": "falafel_wrap.yaml" }
+,
+    { "name": "Falafel", "filename": "falafel.yaml" }
 ,
     { "name": "Fall Veggie Stew", "filename": "fall_veggie_stew.yaml" }
 ,
@@ -143,9 +143,9 @@
 ,
     { "name": "Firecracker Lettuce Wraps", "filename": "firecracker_lettuce_wraps.yaml" }
 ,
-    { "name": "Firecracker Salad", "filename": "firecracker_salad.yaml" }
-,
     { "name": "Firecracker Salad Dressing", "filename": "firecracker_salad_dressing.yaml" }
+,
+    { "name": "Firecracker Salad", "filename": "firecracker_salad.yaml" }
 ,
     { "name": "Garlic And Herb White Bean Dip", "filename": "garlic_and_herb_white_bean_dip.yaml" }
 ,
@@ -175,9 +175,9 @@
 ,
     { "name": "Homemade Burrito", "filename": "homemade_burrito.yaml" }
 ,
-    { "name": "Honey-garlic Chicken Wraps", "filename": "honey-garlic_chicken_wraps.yaml" }
-,
     { "name": "Honey Almond Carrots", "filename": "honey_almond_carrots.yaml" }
+,
+    { "name": "Honey-garlic Chicken Wraps", "filename": "honey-garlic_chicken_wraps.yaml" }
 ,
     { "name": "Honey Garlic Shrimp", "filename": "honey_garlic_shrimp.yaml" }
 ,
@@ -201,15 +201,15 @@
 ,
     { "name": "Lemontahini Dressing", "filename": "lemontahini_dressing.yaml" }
 ,
-    { "name": "Lentil Stew With Mashed Potatoes", "filename": "lentil_stew_with_mashed_potatoes.yaml" }
-,
     { "name": "Lentilmushroom Bolognese", "filename": "lentilmushroom_bolognese.yaml" }
 ,
-    { "name": "Lettuce Mango Salad", "filename": "lettuce_mango_salad.yaml" }
+    { "name": "Lentil Stew With Mashed Potatoes", "filename": "lentil_stew_with_mashed_potatoes.yaml" }
 ,
     { "name": "Lettuce Mango Salad Candied Pecans", "filename": "lettuce_mango_salad_candied_pecans.yaml" }
 ,
     { "name": "Lettuce Mango Salad Dressing", "filename": "lettuce_mango_salad_dressing.yaml" }
+,
+    { "name": "Lettuce Mango Salad", "filename": "lettuce_mango_salad.yaml" }
 ,
     { "name": "Loaded Thaistyle Lettuce Cups", "filename": "loaded_thaistyle_lettuce_cups.yaml" }
 ,
@@ -251,11 +251,11 @@
 ,
     { "name": "One Pan Pasta", "filename": "one_pan_pasta.yaml" }
 ,
-    { "name": "One Pot Sausage Pasta", "filename": "one_pot_sausage_pasta.yaml" }
-,
     { "name": "One Potato Two Tomato Soup", "filename": "one_potato_two_tomato_soup.yaml" }
 ,
     { "name": "Onepot Chickpea Biryani", "filename": "onepot_chickpea_biryani.yaml" }
+,
+    { "name": "One Pot Sausage Pasta", "filename": "one_pot_sausage_pasta.yaml" }
 ,
     { "name": "Orange Tofu And Veggie Fried Rice", "filename": "orange_tofu_and_veggie_fried_rice.yaml" }
 ,
@@ -263,9 +263,9 @@
 ,
     { "name": "Pancakes", "filename": "pancakes.yaml" }
 ,
-    { "name": "Peach Pie", "filename": "peach_pie.yaml" }
-,
     { "name": "Peach Pie Parfait", "filename": "peach_pie_parfait.yaml" }
+,
+    { "name": "Peach Pie", "filename": "peach_pie.yaml" }
 ,
     { "name": "Pesto Pasta", "filename": "pesto_pasta.yaml" }
 ,
@@ -369,6 +369,8 @@
 ,
     { "name": "Sweet And Sour Mixed Bean Hotpot", "filename": "sweet_and_sour_mixed_bean_hotpot.yaml" }
 ,
+    { "name": "Sweet Potato Lentil Curry With Crispy Sesame Chickpeas", "filename": "sweet_potato_lentil_curry_with_crispy_sesame_chickpeas.yaml" }
+,
     { "name": "Sweet Potato Marshmallow Casserole", "filename": "sweet_potato_marshmallow_casserole.yaml" }
 ,
     { "name": "Sweet Potato Noodles With Creamy Peanut Satay Sauce", "filename": "sweet_potato_noodles_with_creamy_peanut_satay_sauce.yaml" }
@@ -397,7 +399,7 @@
 ,
     { "name": "Yellow Splitpea Soup", "filename": "yellow_splitpea_soup.yaml" }
 ,
-    { "name": "Zucchini Caramelized Onion Egg Muffins", "filename": "zucchini__caramelized_onion_egg_muffins.yaml" }
-,
     { "name": "Zucchini Bread", "filename": "zucchini_bread.yaml" }
+,
+    { "name": "Zucchini Caramelized Onion Egg Muffins", "filename": "zucchini__caramelized_onion_egg_muffins.yaml" }
 ]
