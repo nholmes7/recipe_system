@@ -15,9 +15,37 @@ Both pages fetch directly from `raw.githubusercontent.com` on the `main` branch,
 
 1. Add a new `recipes/<name>.yaml` file following the format below.
 2. Run `./generate_index.sh` to regenerate `recipes/index.json`.
-3. Commit and push to `main`.
+3. Commit (see commit message convention below) and push to `main`.
 
 If you're using Claude Code, the `recipe-from-url` skill (`.claude/skills/recipe-from-url/`) automates this: give it a recipe URL and it will fetch the page, transcribe it into the format below, write the file, and regenerate the index for you.
+
+## Commit messages
+
+Use a `type: short summary` subject line, plus a body explaining *why* the change was made — not just a restatement of which files changed (that's what `git diff` is for).
+
+```
+<type>: <short summary, imperative mood>
+
+<body: why this change, in 1-3 sentences>
+```
+
+Types:
+
+- `recipe:` — adding or updating actual recipe content
+- `docs:` — README or other documentation
+- `feat:` — site/tooling changes (`index.html`, `recipe.html`, `generate_index.sh`, Claude skills)
+- `fix:` — bug fixes
+
+For example:
+
+```
+recipe: add Sweet Potato Lentil Curry with Crispy Sesame Chickpeas
+
+Transcribed from halfbakedharvest.com via the recipe-from-url skill.
+Uses the stove-top method from the source; the Instant Pot alternative
+was omitted since the format doesn't have a place for alternate
+cooking methods.
+```
 
 ## Recipe YAML format
 
